@@ -2,13 +2,13 @@ Hello this is just another angular seed
 ============================================
 
 This project is just a very basic seed for angular apps.
-The seed should provide everything to get started on your new angular app.
+The seed should provide everything to get started on your new angular app. I felt the need to create it for use in my future angular projects and also because I could not find anything satisfactory architecture-wise (using angular and browserify) when I first started using angular.
 
 
 # Clone angular seed
 If you just want to start a new project without the angular-seed commit history then you can do:
 ```sh
-    git clone --depth=1 https://github.com/creative-eye/angular-seed.git <your-project-name>
+    git clone --depth=1 https://github.com/creative-eye/angular-seed.git                 <your-project-name>
 ````
 
 Requirements
@@ -65,3 +65,5 @@ There is also a nodemon task that will start the mock server in gulp.
 #TODO
 Add global error handling
 Add end to end testing as well as unit testing.
+
+Add ES6 master with babelify.
