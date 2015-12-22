@@ -16,7 +16,6 @@ Requirements
  - node js
  - npm and gulp
  - ruby and SASS
-------------
 
 ## Running the app
 Install global dependecies first:
@@ -62,4 +61,4 @@ Ruby SASS is used instead of gulp-sass as there might be some problems with boot
 
 
 #TODO
-Add configuration and end to end testing as well as unit testing.
+Add end to end testing as well as unit testing.
