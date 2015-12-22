@@ -58,7 +58,10 @@ or for using the node server mocks:
 # About architectural decisions
 The app does not use bower as I find it creates a lot of problems and does not help much. For dependency management npm should be enough for most apps.
 Ruby SASS is used instead of gulp-sass as there might be some problems with bootstrap not working as expected.
+The app also uses a node server for mocks with a db-mock directory to make tracking the created mocks easier.
+There is also a nodemon task that will start the mock server in gulp.
 
 
 #TODO
+Add global error handling
 Add end to end testing as well as unit testing.
