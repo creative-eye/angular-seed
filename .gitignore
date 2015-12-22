@@ -1,0 +1,19 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Vagrant
+provision/.vagrant/
+
+# Front end
+node_modules
+public/root/dist/**
+public/root/src/js/config.js
+public/root/src/js/config.json
+npm-debug.log
+bower_components
+.sass-cache

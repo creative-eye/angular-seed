@@ -1,0 +1,3 @@
+exports.firstModuleData = {
+    "testData": "Test"
+};
