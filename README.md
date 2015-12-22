@@ -8,7 +8,7 @@ The seed should provide everything to get started on your new angular app.
 # Clone angular seed
 If you just want to start a new project without the angular-seed commit history then you can do:
 ```sh
-    git clone --depth=1 https://github.com/angular/angular-seed.git <your-project-name>
+    git clone --depth=1 https://github.com/creative-eye/angular-seed.git <your-project-name>
 ````
 
 Requirements
