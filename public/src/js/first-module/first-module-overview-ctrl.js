@@ -7,9 +7,9 @@ firstModuleOverviewCtrl.$inject = [
 function firstModuleOverviewCtrl (
     firstModuleXhrService
 ) {
-    var self = this;
+    let self = this;
 
-    var init = (function () {
+    let init = (function () {
         initData();
         initState();
     })();
@@ -30,10 +30,10 @@ function firstModuleOverviewCtrl (
         firstModuleXhrService.getFirstModuleData()
             .then(function (res) {
                 self.data.general = res.data;
-                console.log(self.data.general)
+                console.log(self.data.general);
             });
     }
 
 }
 
-module.exports = firstModuleOverviewCtrl;
+export default firstModuleOverviewCtrl;

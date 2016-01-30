@@ -18,7 +18,7 @@ function firstModuleXhrService (
 
 
     function getFirstModuleData (args) {
-        var opts = {
+        let opts = {
             url: config.api + '/api/getFirstModuleData',
             method: 'GET'
         };
@@ -31,4 +31,4 @@ function firstModuleXhrService (
     }
 }
 
-module.exports = firstModuleXhrService;
+export default firstModuleXhrService;

@@ -1,8 +1,8 @@
 'use strict';
 
 
-var helpersService = require('../services/helpers-service');
-var FIRST_CONSTANT = require('../services/constants/first-contant');
+import helpersService from '../services/helpers-service';
+import FIRST_CONSTANT from '../services/constants/first-contant';
 
 
 angular.module('app.services', [])

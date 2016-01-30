@@ -19,4 +19,4 @@ function helpersService () {
     }
 }
 
-module.exports = helpersService;
+export default helpersService;

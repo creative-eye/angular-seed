@@ -172,10 +172,10 @@ gulp.task('js', ['clean-js', 'create-config-module'], function () {
     bundler = watchify(bundler);
     // keep transformer out of the bundle otherwise the build performance
     // will take a big hit and the development will be severly slower
-    // bundler.transform(babelify.configure({
-    //      sourceMaps: false,
-    //      extensions: ['.js']
-    //  }));
+    bundler.transform(babelify.configure({
+         sourceMaps: false,
+         extensions: ['.js']
+     }));
 
     bundler.on('update', function (ids) {
         $.util.log('File(s) changed: ' + $.util.colors.cyan(ids));

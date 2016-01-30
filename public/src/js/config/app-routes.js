@@ -1,6 +1,6 @@
 'use strict';
 
-var FirstModuleOverviewCtrl = require('../first-module/first-module-overview-ctrl');
+import FirstModuleOverviewCtrl from '../first-module/first-module-overview-ctrl';
 
 appRoutes.$inject = [
     '$stateProvider',
@@ -30,4 +30,4 @@ function appRoutes (
 
 }
 
-module.exports = appRoutes;
+export default appRoutes;

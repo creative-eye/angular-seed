@@ -8,4 +8,4 @@ function FIRST_CONSTANT () {
 }
 
 
-module.exports = FIRST_CONSTANT();
+export default FIRST_CONSTANT();
