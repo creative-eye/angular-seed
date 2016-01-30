@@ -201,7 +201,7 @@ gulp.task('js', ['clean-js', 'create-config-module'], function () {
 
 gulp.task('js-prod', ['clean-js', 'create-config-module'], function () {
     var opts = {
-        entries: String(paths.js.root + + '/app.js'),
+        entries: String(paths.js.root + '/app.js'),
         debug: false
     };
     var bundler = browserify(opts);
