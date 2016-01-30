@@ -11,9 +11,9 @@ provision/.vagrant/
 
 # Front end
 node_modules
-public/root/dist/**
-public/root/src/js/config.js
-public/root/src/js/config.json
+public/dist/**
+public/src/js/config.js
+public/src/js/config.json
 npm-debug.log
 bower_components
 .sass-cache
