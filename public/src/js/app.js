@@ -1,7 +1,7 @@
 'use strict';
 
-//import from e('jquery';
 import angular from 'angular';
+import angularBootstrap from 'angular-bootstrap-npm';
 
 /**
  * 3rd party packages
@@ -27,7 +27,7 @@ import uiRouter from 'angular-ui-router';
  * Internal modules
  */
 import config from './config';
-import appServices from './on-init-modules/init-global-services';
+import appServices from './on-init-modules/init-common';
 import appRoutes from './config/app-routes';
 import firstModule from './first-module/first-module';
 /**
@@ -39,6 +39,7 @@ angular.module('app',
 [
     // external libs
     'app.libs',
+    'ui.bootstrap',
 
     // ng modules
     'ngSanitize',
@@ -53,4 +54,5 @@ angular.module('app',
     // modules
     'firstModule'
 ])
-.config(appRoutes);
+.config(appRoutes)
+;

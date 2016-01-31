@@ -5,13 +5,20 @@
   "main": "gulpfile.js",
   "dependencies": {
     "angular": "^1.4.7",
+    "angular-bootstrap-npm": "^0.14.3",
     "angular-loading-bar": "^0.8.0",
     "angular-resource": "^1.4.7",
     "angular-sanitize": "^1.4.7",
+    "angular-ui-bootstrap": "^1.1.1",
     "angular-ui-router": "^0.2.15",
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.5",
+    "lodash": "^3.10.1",
+    "store": "^1.3.17"
+  },
+  "devDependencies": {
     "babelify": "~6.4.0",
     "body-parser": "~1.14.1",
-    "bootstrap-sass": "^3.3.5",
     "browserify": "^12.0.1",
     "browserify-ng-html2js": "^1.1.5",
     "compression": "~1.6.0",
@@ -31,10 +38,8 @@
     "gulp-strip-debug": "^1.0.2",
     "gulp-uglify": "^1.4.2",
     "gulp-util": "^3.0.7",
-    "lodash": "^3.10.1",
     "method-override": "~2.3.5",
     "morgan": "~1.6.1",
-    "store": "^1.3.17",
     "transform": "^1.1.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-paths": "^2.0.0",
@@ -42,7 +47,6 @@
     "watchify": "^3.6.0",
     "xtend": "^4.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -3,13 +3,18 @@
 import FirstModuleOverviewCtrl from '../first-module/first-module-overview-ctrl';
 
 appRoutes.$inject = [
+    '$httpProvider',
     '$stateProvider',
     '$urlRouterProvider'
 ];
 function appRoutes (
+    $httpProvider,
     $stateProvider,
     $urlRouterProvider
 ) {
+
+    // Add the interceptor to the $httpProvider.
+    $httpProvider.interceptors.push('xhrInterceptors');
 
     $stateProvider
         .state('firstModule', {

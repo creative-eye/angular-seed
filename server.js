@@ -52,8 +52,11 @@ app
     .get('/api/getFirstModuleData', function (req, res, next) {
         setHeaders(res);
 
-        res.json(mocks.demoData);
-        res.end();
+        res
+            // .status(404)
+            // .send('Not found')
+            .json(mocks.demoData)
+            .end();
     })
 
 app.listen(8080);
