@@ -5,6 +5,7 @@ var fs = require('fs');
 
 var browserify = require('browserify');
 var babelify = require('babelify');
+var sitemap = require('gulp-sitemap');
 
 // Loading all gulp plugins through this
 // They will be reffered as $.pluginName
@@ -278,6 +279,14 @@ gulp.task('nodemon', function () {
             .on('restart', function () {
                 console.log('restarted!')
             });
+});
+
+gulp.task('sitemap', function () {
+    return gulp.src('public/dist/*.html')
+        .pipe($.sitemap({
+            siteUrl: "http:localhost:4000"
+        }))
+        pipe(gulp.dest('./dist'));
 });
 
 
